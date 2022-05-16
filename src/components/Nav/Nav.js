@@ -8,10 +8,10 @@ const Nav = () => {
       <div className='container'>
         <ul>
           <NavItem url='/'>Home</NavItem>
-          <NavItem url='/categories'>Categories</NavItem>
+          <NavItem url='/women'>Women</NavItem>
           <Logo />
-          <NavItem url='/products'>Products</NavItem>
-          <NavItem url='/contacts'>Contacts</NavItem>
+          <NavItem url='/men'>Men</NavItem>
+          <NavItem url='/kids'>Kids</NavItem>
         </ul>
       </div>
     </nav>
