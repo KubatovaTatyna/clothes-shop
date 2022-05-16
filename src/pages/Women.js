@@ -1,6 +1,11 @@
+import Header from "../components/Header/Header";
+import headerImage from '../assets/women.gif'
+
 const Women = () => {
   return (
-    <h1>this is Women page</h1>
+    <>
+    <Header image={headerImage}></Header>
+    </>
    );
 }
 

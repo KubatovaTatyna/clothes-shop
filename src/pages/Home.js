@@ -1,6 +1,11 @@
+import Header from "../components/Header/Header";
+import headerImage from '../assets/home.gif'
+
 const Home = () => {
   return (
-    <h1>this is home page</h1>
+    <>
+    <Header image={headerImage}></Header>
+    </>
    );
 }
 

@@ -1,6 +1,11 @@
+import Header from "../components/Header/Header";
+import headerImage from '../assets/men.gif';
+
 const Men = () => {
   return (
-    <h1>this is Men page</h1>
+    <>
+    <Header image={headerImage}></Header>
+    </>
    );
 }
 
