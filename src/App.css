@@ -6,3 +6,9 @@ html {
   padding: 0;
   font-family: 'Barlow', sans-serif;
 }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
