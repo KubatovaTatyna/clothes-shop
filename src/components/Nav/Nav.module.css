@@ -1,0 +1,22 @@
+.Nav {
+  background-color: rgb(231, 231, 231);
+}
+
+.Nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem .5rem;
+}
+
+.Nav ul a {
+  text-decoration: none;
+  color: rgb(146, 146, 146);
+  font-size: 18px;
+}
+
+.Nav ul a:hover {
+  color: rgb(0, 0, 0);
+}

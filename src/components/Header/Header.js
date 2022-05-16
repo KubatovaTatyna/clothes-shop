@@ -1,9 +1,12 @@
-import classes from './Header.module.css'
+import classes from './Header.module.css';
+import headerImage from '../../assets/header.gif';
+
 
 const Header = () => {
-  return ( <header className={classes.Header}>
-    <h1>Amazing clothes for womens!</h1>
-    <p>This is clothes shop</p>
+  const style = {
+    backgroundImage: `url(${headerImage})`
+  }
+  return ( <header className={classes.Header} style={style}>
   </header> );
 }
 
