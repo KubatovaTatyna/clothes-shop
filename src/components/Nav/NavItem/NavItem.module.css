@@ -1,0 +1,14 @@
+.NavItem a {
+  text-decoration: none;
+  color: rgb(146, 146, 146);
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+}
+
+.NavItem a.active {
+  border-color: white;
+}
+
+.NavItem a:hover {
+  color: rgb(0, 0, 0);
+}

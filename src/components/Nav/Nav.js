@@ -1,15 +1,16 @@
 import Logo from '../ui/Logo/Logo';
 import classes from './Nav.module.css';
+import NavItem from './NavItem/NavItem';
 
 const Nav = () => {
   return (
     <nav className={classes.Nav}>
       <ul>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>Categories</a></li>
+        <NavItem url='/home' active>Home</NavItem>
+        <NavItem url='/categories'>Categories</NavItem>
         <Logo />
-        <li><a href='#'>Products</a></li>
-        <li><a href='#'>Contacts</a></li>
+        <NavItem url='/products'>Products</NavItem>
+        <NavItem url='/contacts'>Contacts</NavItem>
       </ul>
     </nav>
   );
