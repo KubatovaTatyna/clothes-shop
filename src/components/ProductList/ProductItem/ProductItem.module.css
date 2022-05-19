@@ -1,0 +1,34 @@
+.ProductItem img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ProductItem {
+  position: relative;
+  flex: 0 0 15%;
+  margin-bottom: 1.5rem;
+}
+
+.ProductItem a {
+  font-weight: 400;
+  color: #000;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: #facf19;
+  padding: .5rem;
+  font-weight: 500;
+  font-size: 18px;
+}
