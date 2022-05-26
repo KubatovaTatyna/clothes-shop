@@ -6,6 +6,8 @@ import Layout from "./components/Layout/Layout";
 import Women from "./pages/Women";
 import Men from "./pages/Men";
 import Kids from "./pages/Kids";
+import Product from './pages/Product/Product';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/women' element={<Women />} />
+          <Route path='/product/:productId' element={<Product />} />
           <Route path='/men' element={<Men />} />
           <Route path='/kids' element={<Kids />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </Layout>
     </div>

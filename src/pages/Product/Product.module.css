@@ -1,0 +1,22 @@
+.Product {
+  max-width: 60%;
+  margin: 1.5rem auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.Product h1 {
+  margin: 0;
+}
+.Product p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.productDescription {
+  padding: 0 1.5rem;
+}
+
+.Product img {
+  width: 100%;
+}

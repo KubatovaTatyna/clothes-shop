@@ -7,7 +7,7 @@ const Women = () => {
   return (
     <>
       <Header image={headerImage}></Header>
-      <ProductList products={getProducts()} />
+      <ProductList products={getProducts()}/>
     </>
   );
 }
