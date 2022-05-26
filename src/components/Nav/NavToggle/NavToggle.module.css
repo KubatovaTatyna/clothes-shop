@@ -1,0 +1,19 @@
+.NavToggle > div {
+  height: 2px;
+  width: 1.5rem;
+  background-color: rgb(146, 146, 146);
+}
+.NavToggle > div:not(:last-child) {
+  margin-bottom: 0.3rem;
+}
+
+.NavToggle {
+  display: none;
+  padding: 1rem;
+}
+
+@media(max-width:550px) {
+  .NavToggle {
+    display: inline-block;
+  }
+}
