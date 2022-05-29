@@ -1,6 +1,10 @@
 import dresses from '../assets/categoryImage.webp';
 import tops from '../assets/tops.webp';
 import bags from '../assets/bags.webp';
+import bottoms from '../assets/bottoms.webp';
+import denim from '../assets/denim.webp';
+import shoes from '../assets/shoes.webp';
+
 
 const categories = [
   {
@@ -14,9 +18,19 @@ const categories = [
     image: tops,
   },
   {
-    categoryId: 'bags',
-    title: 'Bags',
-    image: bags,
+    categoryId: 'denim',
+    title: 'Denim',
+    image: denim,
+  },
+  {
+    categoryId: 'bottoms',
+    title: 'Bottoms',
+    image: bottoms,
+  },
+  {
+    categoryId: 'shoes',
+    title: 'Shoes',
+    image: shoes,
   }
 ]
 
