@@ -6,8 +6,8 @@ import Layout from "./components/Layout/Layout";
 import Women from "./pages/Women";
 import Men from "./pages/Men";
 import Kids from "./pages/Kids";
+import NotFound from "./pages/NotFound";
 import Product from './pages/Product/Product';
-import NotFound from './pages/NotFound';
 
 function App() {
   return (

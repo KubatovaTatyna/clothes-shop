@@ -3,7 +3,7 @@ import classes from './ProductList.module.css';
 
 const ProductList = ({ products }) => {
   const productItems = products.map(product => (
-    <ProductItem key={product.productId} product={product} />
+    <ProductItem key={product.productId} product={product}/>
   ));
 
   return (

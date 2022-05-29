@@ -6,10 +6,18 @@
   font-weight: 500;
 }
 
+.NavItem a:active,
 .NavItem a.active {
-  border-color: white;
+  border-color: rgb(107, 107, 107);
 }
 
 .NavItem a:hover {
   color: rgb(0, 0, 0);
+}
+
+@media(max-width:550px) {
+  .NavItem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }

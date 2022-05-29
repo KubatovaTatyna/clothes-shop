@@ -1,0 +1,10 @@
+.Toolbar {
+  background-color: rgb(231, 231, 231);
+}
+
+
+@media(max-width:550px) {
+  .Toolbar ul {
+    display: none;
+  }
+}

@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import classes from './ProductItem.module.css';
 
 const ProductItem = ({ product }) => {
-  return ( <div className={classes.ProductItem}>
+  return (
+    <div className={classes.ProductItem}>
     <img src={product.image}/>
     <div>
       <Link to={'/product/' + product.productId}>{product.title}</Link>
