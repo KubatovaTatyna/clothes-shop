@@ -31,6 +31,11 @@ const categories = [
     categoryId: 'shoes',
     title: 'Shoes',
     image: shoes,
+  },
+  {
+    categoryId: 'bags',
+    title: 'Bags',
+    image: bags,
   }
 ]
 

@@ -1,13 +1,14 @@
 import jeans from '../assets/jeans.webp';
 import shirt from '../assets/shirt.webp';
 import tShirt from '../assets/t-shirt.webp';
+import bags from '../assets/bags.webp';
 
 const products = [
   {
     image: jeans,
     coverImage: 'cover',
     productId: 'jeans',
-    categoryId: 'dresses',
+    categoryId: 'denim',
     price: 10,
     title: 'Jeans',
     discount: 50,
@@ -28,6 +29,15 @@ const products = [
     categoryId: 'tops',
     price: 10,
     title: 'T-shirt',
+    discount: 50,
+    description:'Sport Men T-shirt'
+  },
+  {
+    image: bags,
+    productId: 'bags',
+    categoryId: 'bags',
+    price: 10,
+    title: 'Bag',
     discount: 50,
     description:'Sport Men T-shirt'
   }
