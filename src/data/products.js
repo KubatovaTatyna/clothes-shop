@@ -7,6 +7,7 @@ const products = [
     image: jeans,
     coverImage: 'cover',
     productId: 'jeans',
+    categoryId: 'dresses',
     price: 10,
     title: 'Jeans',
     discount: 50,
@@ -15,6 +16,7 @@ const products = [
   {
     image: shirt,
     productId: 'shirt',
+    categoryId: 'tops',
     price: 10,
     title: 'Shirt',
     discount: 50,
@@ -23,22 +25,19 @@ const products = [
   {
     image: tShirt,
     productId: 't-shirt',
+    categoryId: 'tops',
     price: 10,
     title: 'T-shirt',
     discount: 50,
     description:'Sport Men T-shirt'
-  },
-  {
-    image: tShirt,
-    productId: 'test',
-    price: 10,
-    title: 'T-shirt',
-    discount: 50,
-    description:'Sport Men T-shirt'
-  },
+  }
 ]
 
-export function getProducts() {
+export function getProducts(categoryId) {
+  if(categoryId) {
+    return products.filter(product => product.categoryId === categoryId);
+  }
+
   return products;
 }
 
