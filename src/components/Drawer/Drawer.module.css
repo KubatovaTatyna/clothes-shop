@@ -15,6 +15,7 @@
   transition: transform .3s;
 
   overflow: hidden;
+  transform: translateX(350px);
 }
 
 .Drawer .backdrop {
@@ -25,6 +26,16 @@
   right: 0;
   bottom: 0;
   z-index: 90;
+  display: none;
+}
+
+.open .content {
+  transform: translateX(0);
+}
+
+.open .backdrop {
+  display: block;
+  cursor: pointer;
 }
 
 @media(min-width:550px) {

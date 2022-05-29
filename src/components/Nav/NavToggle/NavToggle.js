@@ -1,8 +1,8 @@
 import classes from './NavToggle.module.css';
 
-const NavToggle = () => {
+const NavToggle = ( {callback} ) => {
   return (
-    <div className={classes.NavToggle}>
+    <div onClick={callback} className={classes.NavToggle}>
       <div></div>
       <div></div>
       <div></div>
